@@ -1,6 +1,6 @@
 # ASP3231 project for Maria and Evgenii
 
-## Steps
+## Data reduction
 
 ### Reduce Bias and Dark frames
 
