@@ -4,8 +4,8 @@
 
 ### Reduce Bias and Dark frames
 
-Run `code/Bias and Dark/Bias and Dark/Bias and Dark.ipynb` to create bias_median.fits and dark_median.fits files in `code/Bias and Dark/Bias and Dark`.
+Run `code/010_bias_and_dark/Bias and Dark.ipynb` to create bias_median.fits and dark_median.fits files.
 
 ### Reduce flat frames
 
-Run `code/flat_and_science_reduction/flats.ipynb`. It will create reduced flats in `code/flat_and_science_reduction/data/flats/reduced`.
+Run `code/020_flat`. It will create reduced flats in `data/flats/reduced` directory.
