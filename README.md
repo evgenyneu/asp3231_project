@@ -1,4 +1,4 @@
-# ASP3231 project for Maria and Evgenii
+# ASP3231 project by Maria and Evgenii
 
 ## Setup
 
