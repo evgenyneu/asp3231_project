@@ -15,10 +15,6 @@ To run the project code, do the following steps in the specified order:
 1. Reduce individual science frames: [code/030_science_frames](code/030_science_frames).
 
 
-### Reduce flat frames
-
-Run `code/020_flat`. It will create reduced flats in `data/flats/reduced` directory.
-
 ### Reduce individual science frames
 
 Run `code/030_science_frames/science_frames.ipynb`. It will create reduced science images in `data/reduced` directory.
