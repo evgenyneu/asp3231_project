@@ -1,10 +1,18 @@
 # ASP3231 project for Maria and Evgenii
 
+## Setup
+
+Download the project
+
+```
+git clone https://github.com/evgenyneu/asp3231_project.git
+```
+
 ## Data reduction
 
-### Reduce Bias and Dark frames
 
-Run `code/010_bias_and_dark/Bias and Dark.ipynb` to create bias_median.fits and dark_median.fits files.
+1. [Reduce Bias and Dark frames](code/010_bias_and_dark)
+
 
 ### Reduce flat frames
 
