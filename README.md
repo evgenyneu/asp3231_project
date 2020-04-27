@@ -43,8 +43,9 @@ conda deactivate
 conda env remove -n obsastro2020
 ```
 
-## Data reduction
+## Running the code
 
+To run the project code, do the following steps in the specified order:
 
 1. [Reduce Bias and Dark frames](code/010_bias_and_dark)
 
