@@ -6,7 +6,7 @@
 cd code/010_bias_and_dark
 ```
 
-* Open [Bias and Dark.ipynb](Bias%20and%20Dark.ipynb) in Jupyter notebook:
+* Open [Bias and Dark.ipynb](Bias%20and%20Dark.ipynb) in notebook in Jupyter:
 
 ```
 jupyter notebook "Bias and Dark.ipynb"
