@@ -1,0 +1,11 @@
+astroid==2.3.3
+astropy==4.0
+astropy-healpix==0.5
+astroquery==0.3.10
+astroscrappy==1.0.8
+ccdproc==2.1.0
+jupyter
+numpy==1.17.3
+scipy==1.4.1
+requests==2.22.0
+photutils==0.7.2
