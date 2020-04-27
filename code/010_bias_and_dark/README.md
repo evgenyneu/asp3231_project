@@ -1,7 +1,5 @@
 # Reduce Bias and Dark frames
 
-## How to run the code
-
 * Change directory:
 
 ```
