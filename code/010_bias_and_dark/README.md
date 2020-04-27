@@ -8,7 +8,7 @@
 cd code/010_bias_and_dark
 ```
 
-* Open and run [Bias and Dark.ipynb](code/010_bias_and_dark/BiasDark.ipynb) in Jupyter notebook:
+* Open and run [Bias and Dark.ipynb]("code/010_bias_and_dark/Bias and Dark.ipynb") in Jupyter notebook:
 
 ```
 jupyter notebook "Bias and Dark.ipynb"
