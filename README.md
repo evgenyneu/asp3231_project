@@ -2,15 +2,21 @@
 
 ## Setup
 
-* Download the project
+* Download the project:
 
 ```
 git clone https://github.com/evgenyneu/asp3231_project.git
 ```
 
+* Change working directory:
+
+```
+cd asp3231_project
+```
+
 * Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
-* Create a Conda environment.
+* Create a Conda environment:
 
 ```
 conda create --name obsastro2020 python=3.7
