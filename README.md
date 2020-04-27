@@ -2,7 +2,7 @@
 
 ## Setup
 
-Follow [setup instructions](setup) if you run this code for the first time.
+Follow [setup instructions](setup.md) if you run this code for the first time.
 
 ## Running the code
 
