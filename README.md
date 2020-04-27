@@ -34,7 +34,7 @@ conda activate obsastro2020
 pip install -r requirements.txt
 ```
 
-## Cleaning up
+### Cleaning up
 
 When you finished running the code, stop Jupyter with <Ctrl-C> and remove the Conda environment:
 
