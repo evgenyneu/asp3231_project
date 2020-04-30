@@ -5,3 +5,4 @@
 * Show images after steps and discuss them in logbook.
 * Shift all images.
 * Do not combine photometric images March 29 and April 30.
+* Submit logboooks in PDF format.
