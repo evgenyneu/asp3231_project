@@ -36,4 +36,4 @@ Figure 1: Shifting the images using `order=0` setting. We can see that image is 
 
 ![Shifting with order=1](https://github.com/evgenyneu/asp3231_project/raw/master/code/040_shift/images/shifting_order_1.gif)
 
-Figure 1: Shifting the images using `order=1` setting. This setting allows to shift the image by non-integer number of pixels and uses spline interpolation of order 1 to calculate the pixel value. You can see that this results in changes in pixel values, this is not ideal.
+Figure 2: Shifting the images using `order=1` setting. This setting allows to shift the image by non-integer number of pixels and uses spline interpolation of order 1 to calculate the pixel value. You can see that this results in changes in pixel values, this is not ideal.
