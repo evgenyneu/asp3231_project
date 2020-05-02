@@ -24,10 +24,13 @@ The following video shows shifted images from March 9 archive:
 
 ### Using shifting settings
 
+We used the `shift` function to shift the images:
 
 ```Python
 shifted = shift(image, yx_shift, order=0, mode='constant', cval=np.median(image))
 ```
+
+The difference between `order=0` and `order=1` parameter values are shown on Fig. 1 and 2.
 
 ![Shifting with order=0](https://github.com/evgenyneu/asp3231_project/raw/master/code/040_shift/images/shifting_order_0.gif)
 
