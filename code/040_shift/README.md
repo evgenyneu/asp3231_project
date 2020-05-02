@@ -29,11 +29,11 @@ The following video shows shifted images from March 9 archive:
 shifted = shift(image, yx_shift, order=0, mode='constant', cval=np.median(image))
 ```
 
-![Shifting with order=0](code/040_shift/images/shifting_order_0.gif)
+![Shifting with order=0](https://github.com/evgenyneu/asp3231_project/raw/master/code/040_shift/images/shifting_order_0.gif)
 
 Figure 1: Shifting the images using `order=0` setting. We can see that image is simply translated by integer number of pixels, so the brightness of pixels is not changed. This is the setting that we ended up using, because we don't want shifting to affect pixel values.
 
 
-![Shifting with order10](code/040_shift/images/shifting_order_1.gif)
+![Shifting with order=1](https://github.com/evgenyneu/asp3231_project/raw/master/code/040_shift/images/shifting_order_1.gif)
 
 Figure 1: Shifting the images using `order=1` setting. This setting allows to shift the image by non-integer number of pixels and uses spline interpolation of order 1 to calculate the pixel value. You can see that this results in changes in pixel values, this is not ideal.
