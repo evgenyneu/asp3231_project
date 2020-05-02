@@ -14,6 +14,8 @@ To run the project code, do the following steps in the specified order:
 
 1. Reduce individual science frames: [code/030_science_frames](code/030_science_frames).
 
+1. Shift individual science frames: [code/040_shift](code/040_shift).
+
 
 ## The unlicense
 
