@@ -2,3 +2,13 @@ original_files
 .DS_Store
 Icon
 .ipynb_checkpoints
+
+# LaTeX report
+*.log
+*.aux
+*.out
+assignment.pdf
+*.blg
+*.bbl
+*.toc
+.DS_Store

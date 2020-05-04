@@ -1,0 +1,102 @@
+\documentclass[a4paper,twoside,12pt,hidelinks]{article}
+
+% Packages
+% ---------------------
+
+\usepackage{fancyhdr} % Head and foot options
+\usepackage{hyperref} % Uses automatic references \autoref
+\usepackage{titletoc} % Style table of contents with dots
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage{multirow}
+\usepackage[libertine]{newtxmath} % Font
+\usepackage[separate-uncertainty = true, multi-part-units=single]{siunitx} % Physical numbers and units
+\usepackage{aas_macros} % To support Astronomy journal names in references
+\usepackage{natbib}
+
+% Page settings
+% ---------------------
+
+\usepackage[top=2cm, bottom=2.5cm,left=2.5cm,right=2.5cm]{geometry} %  Page margins
+\setlength{\parskip}{\baselineskip} % Add space between paragraphs
+\setlength{\intextsep}{20pt plus 2.0pt minus 2.0pt} % Add vertical space before and after tables and figures (http://tex.stackexchange.com/a/26522/101976)
+\parindent=0cm % Remove the paragraph indent of the first line
+\addtolength{\jot}{2\jot} % Double the line between equations
+\def\arraystretch{1.5} % Increase the vertical table cell margin
+\dottedcontents{part}[0em]{\bfseries}{0em}{1pc} % Use dots in the table of contents
+\dottedcontents{section}[5em]{}{3em}{1pc} % Use dots in the table of contents
+\renewcommand{\contentsname}{\centering Contents} % Center the table of contents header
+\raggedbottom % Prevents spreading the page content vetically for non-full pages.
+\setlength{\headheight}{20pt} % Height of the header
+
+% Set vertical space around equations.
+\AtBeginDocument{%
+ \abovedisplayskip=15pt plus 5pt minus 5pt
+ \abovedisplayshortskip=12pt plus 3pt
+ \belowdisplayskip=15pt plus 5pt minus 5pt
+ \belowdisplayshortskip=12pt plus 3pt minus 4pt
+}
+
+% Color the links and references
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+% Title page
+
+\title{Photometric reduction of images of NGC 3201 stars and inference of their distance and age, and more\vspace{-1ex}}
+\author{M. Funcich, E. Neumerzhitckii\vspace{-1ex}}
+\date{\vspace{-5ex}}
+\date{June 20, 2020}
+
+\begin{document}
+
+\setcounter{secnumdepth}{-1}
+\renewcommand{\thepart}{}
+\renewcommand{\thesection}{Part \Alph{section}}
+\renewcommand{\thesubsection}{\Alph{section}.\arabic{subsection}}
+\renewcommand{\partname}{}
+
+\maketitle
+\thispagestyle{empty} % Remove page number from title page
+% \vspace{3.5cm} % Add space between the title and table of contents
+% \pagebreak
+
+% \tableofcontents
+% \pagebreak
+
+
+% Header and footer
+% ---------------------
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{Measuring the oscillations of a magnetometer's needle in magnetic field}
+\fancyhead[LE,RO]{\thepage}
+
+
+% Parts
+% ---------------------
+
+
+\input{parts/0_abstract}
+\vspace{1ex}% Additional space between abstract & rest of document
+
+\input{parts/1_introduction}
+\input{parts/2_method}
+\input{parts/3_results_and_analysis}
+\input{parts/4_discussion}
+\input{parts/5_conclusion}
+
+
+% Bibliography
+% ---------------------
+
+\bibliographystyle{apalike}
+\bibliography{assignment}
+
+\end{document}

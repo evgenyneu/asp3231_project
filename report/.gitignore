@@ -1,0 +1,16 @@
+*.log
+*.aux
+*.out
+assignment.pdf
+*.blg
+*.bbl
+*.toc
+.DS_Store
+
+__pycache__
+.pytest_cache
+
+# Fortran output
+*.mod
+*.o
+two_ode_rk4
