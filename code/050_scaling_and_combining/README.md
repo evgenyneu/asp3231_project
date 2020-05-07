@@ -6,7 +6,7 @@
 cd code/050_scaling_and_combining
 ```
 
-* Open [shift.ipynb](shift.ipynb) notebook in Jupyter:
+* Open [scaling_and_combining.ipynb](scaling_and_combining.ipynb) notebook in Jupyter:
 
 ```
 jupyter notebook scaling_and_combining.ipynb
