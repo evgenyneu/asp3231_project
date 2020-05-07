@@ -18,7 +18,7 @@ where
 
 ## Answer from Vaishali
 
-* Use daofind to find stars in non-photometric night. Play with theshold and check that it picked faint stars.
+* Use daofind to find stars in non-photometric night. Play with threshold and check that it picked faint stars.
 
 * Don't do very faint stars (fainter than 20).
 
