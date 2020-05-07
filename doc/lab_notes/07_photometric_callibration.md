@@ -10,8 +10,9 @@
 > m1 = m2_A - 2.5 log(f1/f2_A),
 
 where
-    * m2_A is magnitude of star A found in Step 2 from photometric image.
-    * f1, f2_A are measured fluxes of any star and star A in NON-photometric image.
+
+* m2_A is magnitude of star A found in Step 2 from photometric image.
+* f1, f2_A are measured fluxes of any star and star A in NON-photometric image.
 
 4. Find m1 using other reference stars B, C and D. Then calculate the average magnitude m1.
 
