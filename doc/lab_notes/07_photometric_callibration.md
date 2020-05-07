@@ -5,7 +5,7 @@
 
 2. Find m2 of each four stars using photometric equations from [05_data_summary.pdf](https://github.com/evgenyneu/asp3231_project/blob/master/doc/lab_notes/05_data_summary.pdf): m2_A, m2_B etc. Do this for at least three filter bands.
 
-3. Now, in science image, find magnitudes m1 all other other stars using star A as a reference star using equation
+3. Now, in science image, find magnitudes m1 of all other other stars using star A as a reference star using equation
 
 > m1 = m2_A - 2.5 log(f1/f2_A),
 
