@@ -1,7 +1,7 @@
 # Photometric calibration
 
 
-1. Pick 5 bright blue stars (using Alladin https://aladin.u-strasbg.fr/AladinLite/) present both in science and photometric nights: stars A, B, C, D etc.
+1. Pick four bright blue stars (using Aladin https://aladin.u-strasbg.fr/AladinLite/) present both in science and photometric nights: stars A, B, C, D etc.
 
 2. Find m2 of each four stars using photometric equations from [05_data_summary.pdf](doc/lab_notes/05_data_summary.pdf): m2_A, m2_B etc. Do this for at least three filter bands.
 
