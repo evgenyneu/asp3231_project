@@ -13,4 +13,4 @@ jupyter notebook scaling_and_combining.ipynb
 ```
 * Run all code by selecting `Kernel > Restart & Run All` menu.
 
-* The program will put combined images to [march_09_2018_stacked](march_09_2018_stacked) and [march_29_2018_stacked](march_29_2018_stacked) directories.
+* The program will put combined images to `050_scaling_and_combining` directory.
