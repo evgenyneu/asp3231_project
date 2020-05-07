@@ -13,7 +13,7 @@ jupyter notebook science_frames.ipynb
 ```
 * Run all code by selecting `Kernel > Restart & Run All` menu.
 
-* The program will create reduced science images in [data/reduced](data/reduced) directory.
+* The program will create reduced science images in [data/reduced](data/shifted) directory.
 
 ## Shift check video
 
