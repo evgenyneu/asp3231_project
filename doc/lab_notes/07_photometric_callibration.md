@@ -16,6 +16,10 @@ where
 
 4. Find m1 using other reference stars B, C and D. Then calculate the average magnitude m1.
 
+## How we split our work
+
+* Evgenii will do B and I bands.
+
 ## Answer from Vaishali
 
 * Use daofind to find stars in non-photometric night. Play with threshold and check that it picked faint stars.
