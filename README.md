@@ -16,6 +16,8 @@ To run the project code, do the following steps in the specified order:
 
 1. Shift individual science frames: [code/040_shift](code/040_shift).
 
+1. Scale and combine science frames: [code/050_scaling_and_combining](code/050_scaling_and_combining).
+
 
 ## The unlicense
 
