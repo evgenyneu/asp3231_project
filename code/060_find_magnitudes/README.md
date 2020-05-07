@@ -6,7 +6,7 @@
 cd code/060_find_magnitudes
 ```
 
-* Open [find_magnitudes.ipynb](sfind_magnitudes.ipynb) notebook in Jupyter:
+* Open [find_magnitudes.ipynb](find_magnitudes.ipynb) notebook in Jupyter:
 
 ```
 jupyter notebook find_magnitudes.ipynb
