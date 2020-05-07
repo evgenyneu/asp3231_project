@@ -16,6 +16,13 @@ where
 
 4. Find m1 using other reference stars B, C and D. Then calculate the average magnitude m1.
 
+## Answer from Vaishali
+
+* Use daofind to find stars in non-photometric night. Play with theshold and check that it picked faint stars.
+
+* Don't do very faint stars (fainter than 20).
+
+* For four reference stars, pick four bright blue stars, not oversaturated.
 
 ## Questions
 
