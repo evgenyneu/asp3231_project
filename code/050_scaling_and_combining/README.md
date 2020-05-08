@@ -14,3 +14,7 @@ jupyter notebook scaling_and_combining.ipynb
 * Run all code by selecting `Kernel > Restart & Run All` menu.
 
 * The program will put combined images to `050_scaling_and_combining` directory.
+
+* Manually move `*60.0s.fits` files into `march_09_2018_stacked` directory.
+
+* Manually move `*30.0s.fits` files into `march_29_2018_stacked` directory.
