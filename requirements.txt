@@ -9,3 +9,5 @@ numpy==1.17.3
 scipy==1.4.1
 requests==2.22.0
 photutils==0.7.2
+tabulate==0.8.7
+pandas==1.0.3

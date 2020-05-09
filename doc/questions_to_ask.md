@@ -1,9 +1,8 @@
-## Week 6 Data reduction
+## Difference between SIMAD's and my magnitudes of reference stars are:
 
-* Is 20 biases ok, or should we use 10?
+* B mag: 0.06 ± 0.05
+* V mag: -0.12 ± 0.04
 
-* The I-filter images (March_09_2018/NGC_3201_I_60.000secs_00001617.fits) are oversaturated. Should we drop them from analysis?
+Are they bad?
 
-* Is it enough to use science images just from one nights (about 20 images for each filter)? Or should add stack images from other nights?
-
-* When I blink through reduced images, I can still see hot pixels that we exactly at same positions on all frames. Those pixels will not be removed after median-combining images. What should we do?
+## Do we need to calculate magnitude uncertainties?
