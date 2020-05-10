@@ -18,6 +18,8 @@ To run the project code, do the following steps in the specified order:
 
 1. Scale and combine science frames: [code/050_scaling_and_combining](code/050_scaling_and_combining).
 
+1. Calculate magnitudes: [code/060_find_magnitudes](code/060_find_magnitudes).
+
 
 ## The unlicense
 
