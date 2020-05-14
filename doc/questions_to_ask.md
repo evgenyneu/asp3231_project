@@ -16,6 +16,8 @@ V:   -0.00 ± 0.04 mag
 R:   -0.00 ± 0.04 mag
 I:    0.00 ± 0.04 mag
 
-## Color magnitude diagrams make no sense
+## Is our CMDs ok?
 
-Main sequence is tilted in wrong direction.
+## Should we calculate uncertainties of magnitudes?
+
+## Can we use Girardi isochrones?
