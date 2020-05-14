@@ -12,9 +12,9 @@ Use A=0 for now
 
 ### Find abslute magnitude Mv
 
-* Find turning point off the main sequnce, calculate B-V value, look at Carol and Ostlie to find absolute magnitude Mv.
+* Find turning point off the main sequence, calculate B-V value, look at Carol and Ostlie to find absolute magnitude Mv.
 
-* PLot B-V vs absolute magnitude Mv from Carol and Ostlie table
+* Plot B-V vs absolute magnitude Mv from Carol and Ostlie table
 
 Find d from Eq. 1.
 
