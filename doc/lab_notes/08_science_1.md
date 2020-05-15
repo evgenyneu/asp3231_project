@@ -39,3 +39,14 @@ Use our function to calculate stellar mass vs B-V.
 Make histogram M/M_sun (at least one star in each bin).
 
 * Plot log(number) vs log(M/M_sun)
+
+
+## Response from Michael Brown
+
+I've posted CMD in the forum https://lms.monash.edu/mod/forum/discuss.php?d=2004948#p5265202
+
+We can not main sequence on our CMD, so we can not use the suggested method of calculating distance and age from above.
+
+> you cannot use main sequence fitting for the GC distance (and age), but you can use the red giant branch and isochrones in the same way. Indeed, you could have fun over plotting 100 Myr, 1 Gyr and 10 Gyr isochrones on your plot using the same distance modulus.
+
+> There are tables of red giant colours and magnitudes available too, so you can do a cross check without relying on the isochrones alone.
