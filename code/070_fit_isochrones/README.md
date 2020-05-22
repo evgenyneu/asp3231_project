@@ -6,7 +6,7 @@
 cd code/070_fit_isochrones
 ```
 
-* Open [fit_isochrones](fit_isochrones) notebook in Jupyter:
+* Open [fit_isochrones.ipynb](fit_isochrones.ipynb) notebook in Jupyter:
 
 ```
 jupyter notebook fit_isochrones
