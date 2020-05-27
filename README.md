@@ -20,6 +20,8 @@ To run the project code, do the following steps in the specified order:
 
 1. Calculate magnitudes: [code/060_find_magnitudes](code/060_find_magnitudes).
 
+1. Verify magnitudes: [code/065_verify_magnitudes](code/065_verify_magnitudes).
+
 1. Find age/distance by fitting Girardi isochrones (Evgenii): [code/070_fit_isochrones](code/070_fit_isochrones).
 
 1. Find age/distance by fitting Girardi isochrones (Maria): [code/080_science](code/080_science).
