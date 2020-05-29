@@ -11,3 +11,4 @@ requests==2.22.0
 photutils==0.7.2
 tabulate==0.8.7
 pandas==1.0.3
+uncertainties=3.1.2
