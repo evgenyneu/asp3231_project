@@ -1,0 +1,87 @@
+\documentclass[a4paper,twoside,14pt,hidelinks]{extarticle}
+
+
+% Packages
+% ---------------------
+
+\usepackage{fancyhdr} % Head and foot options
+\usepackage{hyperref} % Uses automatic references \autoref
+\usepackage{titletoc} % Style table of contents with dots
+\usepackage[T1]{fontenc}
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath} % Font
+\usepackage{aas_macros} % To support Astronomy journal names in references
+\usepackage{graphicx} % Show images
+\usepackage{natbib} % Bibliography
+
+% Physical numbers and units
+\usepackage[separate-uncertainty = true, multi-part-units=single]{siunitx}
+
+% Adjust space before and after section and subsection with titlespacing
+\usepackage{titlesec}
+
+% Add space between table and its caption
+\usepackage{caption}
+
+
+% Typography
+% ---------------------
+
+% Page margins
+\usepackage[top=2cm, bottom=2.5cm, left=2.5cm, right=2.5cm]{geometry}
+
+% First line indentation
+\setlength{\parindent}{2em}
+
+% Line spacing
+\renewcommand{\baselinestretch}{1.1}
+
+% Hanging indentation in reference list
+\setlength\bibhang{2em}
+
+% Color the links and references
+\hypersetup{
+    colorlinks=true, linkcolor=blue, filecolor=magenta, urlcolor=blue, citecolor=blue
+}
+
+% Change spacing before and after titles {<left>}{<before-sep>}{<after-sep>}
+% spacing: how to read {12pt plus 4pt minus 2pt}
+%          12pt is what we would like the spacing to be
+%          plus 4pt means that TeX can stretch it by at most 4pt
+%          minus 2pt means that TeX can shrink it by at most 2pt
+% https://tex.stackexchange.com/a/53341
+\titlespacing*{\section}{0pt}{2em plus 1em minus 1em}{1em plus 0.5em minus 0.5em}
+\titlespacing*{\subsection}{0pt}{2em plus 1em minus 1em}{1em plus .5em minus .5em}
+
+% Precent stretching content vertically and adding empty space
+\raggedbottom
+
+
+% Title page
+% ----------
+
+\title{Estimating magnitude uncertainties\vspace{-2.0cm}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{empty} % Remove page number from title page
+
+
+% Header and footer
+% ---------------------
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{Estimating magnitude uncertainties}
+\fancyhead[LE,RO]{\thepage}
+
+
+% Parts
+% ---------------------
+
+\input{parts/work}
+
+\end{document}

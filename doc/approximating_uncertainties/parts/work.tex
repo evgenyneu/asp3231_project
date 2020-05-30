@@ -1,0 +1,68 @@
+This document contains a list of steps for approximating uncertainties of measured magnitudes in ASP 3231 project.
+
+\section{Find uncertainty of star's flux}
+
+\begin{itemize}
+  \item Measure twenty background fluxes by choosing apertures in the regions without stars.
+  \item Note that the radius of the apertures for measuring fluxes should be equal to the radius used to measure the fluxes of the stars in that image.
+  \item Calculate standard deviation of these fluxes. We will use it to approximate the uncertainty of the flux u(f) from the stars for that image (I don't know why we can do this, but ok).
+\end{itemize}
+
+
+\section{Calculate uncertainty of reference star’s magnitude in photometric image}
+
+\begin{itemize}
+  \item The magnitude $m_2$ of a reference star is calculated from photometric calibration equation:
+  \begin{equation}
+  m_2 = z - 2.5 \log_{10}(f/t) + k \ A,
+  \end{equation}
+  where z, and k are constants, $f$ is flux of a reference star measured in photometric image, $A$ is the average air mass index of the stacked images.
+  \item Next we calculate $u(m_2)$ (uncertainty of $m_2$) by propagating uncertainties  $u(f)$ and $u(A)$. The uncertainty of the air mass $u(A)$ is standard deviation of air mass indices of the stacked images.
+  
+  \item Assuming $f$ and $A$ are independent, we calculate uncertainty of m2 using first order approximation:
+  
+  \begin{equation}
+    u(m_2) = \sqrt{ \left[ \frac{2.5}{f} \frac{1}{\ln(10)} u(f) \right]^2 + \left[ a \ u(A)\right]^2}.
+  \end{equation}
+\end{itemize}
+
+
+\section{Calculate uncertainty of star’s magnitude in non-photometric image for one reference star}
+
+\begin{itemize}
+  \item The magnitude $m_1$ of a star in non-photometric image is calculated from equation
+  \begin{equation}
+  m_1 = m_2 - 2.5 \log_{10} \left( \frac{f_1}{f_2} \right),
+  \label{eq_star_magnitude}
+  \end{equation}
+  where $m_2$ is magnitude of a reference star, $f_1$ is the flux of the star we want, and $f_2$ is flux of a reference star. Both fluxes $f_1$ and $f_2$ are measured in non-photometric image. 
+  
+  \item We calculate the uncertainty of $m_1$, assuming all variables in \autoref{eq_star_magnitude} are independent, and thus using first order approximation 
+  \begin{equation}
+  u(m_1) = \sqrt{[u(m_2)]^2 + \left[ 2.5 \frac{u(f)}{\ln(10)} \right]^2 \left( \frac{1}{f_1^2} + \frac{1}{f_2^2} \right)},
+  \label{eq_uncertainty_of_magnitude}
+  \end{equation}
+  where u(f) is the uncertainty of flux measurement in non-photometric image for the star we want.
+
+\end{itemize}
+
+
+\section{Calculate final uncertainty of star's magnitude}
+
+\begin{itemize}
+   \item We use multiple reference stars to calculate a star's magnitudes using \autoref{eq_star_magnitude}. So if we have three reference stars $a$, $b$ and $c$, we will calculate three magnitudes for each star: $m_a, m_b, m_c$.
+  
+  \item We calculate the final magnitude of the star $m$ by taking the middle magnitude of $m_a, m_b, m_c$.
+  
+  
+  \item For the uncertainty of the magnitude we take  the uncertainty of the middle magnitude. Not that we do not calculate the average of $m_a, m_b, m_c$, because if we do so and use the simple error propagation formula we will get:
+  \[
+  u(m) = \frac{\sqrt{u(m_a)^2 + u(m_b)^2 + u(m_c)^2}}{3}.
+  \]
+  
+  This approach assumes $m_a, m_b, m_c$ are independent measurements. But this $m_a, m_b, m_c$  are not independent, since in each measurement the star's flux $f_1$ is the same (\autoref{eq_star_magnitude}), and $m_2$ and $f_2$ are also the same for all stars. Therefore, if we did that, our uncertainty would be significantly underestimated.
+  
+  \item We report star's magnitude $m$, its uncertainty $u(m)$ and publish in The International Journal Of Tourism Sciences.
+
+\end{itemize}
+

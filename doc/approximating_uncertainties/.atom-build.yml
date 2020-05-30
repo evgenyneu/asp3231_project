@@ -1,0 +1,9 @@
+cmd: "/Library/TeX/texbin/pdflatex assignment.tex && open -a Skim.app assignment.pdf"
+name: "Run LaTeX"
+
+targets:
+    LeTeXRemoveAux:
+        cmd: "rm -f 'assignment.aux'"
+
+    LeTeXBuildBibliography:
+        cmd: "/Library/TeX/texbin/bibtex assignment"
