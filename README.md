@@ -4,7 +4,7 @@ This is a project Maria Funcich and I did in Observational Astronomy ASP 3231 un
 
 ![False color image of NGC 3201 globular cluster](https://raw.githubusercontent.com/evgenyneu/asp3231_project/master/code/090_color_image/images/spaceshit.jpg)
 
-Figure 1: False color image of NGC 3201 globular cluster, as viewed from a cockpit of an imperial combat vessel. The cockpit image is from [pngguru.com](https://www.pngguru.com/free-transparent-background-png-clipart-nprbv) web site.
+Figure 1: False color image of NGC 3201 globular cluster, as viewed from a cockpit of an imperial combat vessel. The cockpit image is from [pngguru.com](https://www.pngguru.com/free-transparent-background-png-clipart-nprbv).
 
 ## Setup
 
