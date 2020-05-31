@@ -4,7 +4,7 @@ This is a project Maria and I did in Observational Astronomy unit in Monash univ
 
 ![False color image of NGC 3201 globular cluster](https://raw.githubusercontent.com/evgenyneu/asp3231_project/master/code/090_color_image/images/spaceshit.jpg)
 
-Figure 1: False color image of NGC 3201 clubular cluster made, as viewed from a cockpit of an imperial combat vessel.
+Figure 1: False color image of NGC 3201 globular cluster, as viewed from a cockpit of an imperial combat vessel.
 
 ## Setup
 
