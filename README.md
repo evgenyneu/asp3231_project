@@ -2,6 +2,10 @@
 
 This is a project Maria and I did in Observational Astronomy unit in Monash university. In this project we were given images of NGC 3201 globular cluster made using Monash eleven inch telescope. Our goal was to reduce the images, calculate magnitudes of the stars, plot color-magnitude diagrams and estimate the distance to the cluster, as well as its age.
 
+![False color image of NGC 3201 globular cluster](https://raw.githubusercontent.com/evgenyneu/asp3231_project/master/code/090_color_image/images/spaceshit.jpg)
+
+Figure 1: False color image of NGC 3201 clubular cluster made, as viewed from a cockpit of an imperial combat vessel.
+
 ## Setup
 
 Follow [setup instructions](setup.md) if you run this code for the first time.
