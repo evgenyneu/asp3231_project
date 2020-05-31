@@ -1,6 +1,6 @@
 # ASP3231 project by Maria and Evgenii
 
-This is a project Maria and I did in Observational Astronomy unit in Monash university. In this project we were given images of NGC 3201 globular cluster (Fig. 1) made using Monash eleven inch telescope. Our goal was to reduce the images, calculate magnitudes of the stars, plot color-magnitude diagrams and estimate the distance to the cluster, as well as its age.
+This is a project Maria Funcich and I did in Observational Astronomy unit in Monash university. In this project we were given images of NGC 3201 globular cluster (Fig. 1) made using Monash eleven inch telescope. Our goal was to reduce the images, calculate magnitudes of the stars, plot color-magnitude diagrams and estimate the distance to the cluster, as well as its age. This work was made possible by our teachers: Vaishali Parkash and Madhooshi Senarath, Michael Brown and Duncan Galloway. 
 
 ![False color image of NGC 3201 globular cluster](https://raw.githubusercontent.com/evgenyneu/asp3231_project/master/code/090_color_image/images/spaceshit.jpg)
 
