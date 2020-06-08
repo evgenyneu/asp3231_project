@@ -1,6 +1,6 @@
 # Observational astronomy project
 
-This is a project Maria Funcich and I did in Observational Astronomy ASP 3231 unit in Monash University. In this project we were given images of NGC 3201 globular cluster (Fig. 1) made using Monash eleven inch telescope. Our goal was to reduce the images, calculate magnitudes of the stars, plot color-magnitude diagrams and estimate the distance to the cluster, as well as its age. This work was only possible because of the help from our loving and patient teachers: Vaishali Parkash, Madhooshi Senarath, Michael Brown and Duncan Galloway. 
+This is a project Maria Funcich and I did in Observational Astronomy ASP 3231 unit in Monash University. In this project we were given images of NGC 3201 globular cluster (Fig. 1) made using Monash eleven inch telescope. Our goal was to reduce the images, calculate magnitudes of the stars, plot color-magnitude diagrams and estimate the distance to the cluster, as well as its age. This work was only possible because of the help from our loving and patient teachers: Vaishali Parkash, Madhooshi Senarath, Michael Brown and Duncan Galloway.
 
 ![False color image of NGC 3201 globular cluster](https://raw.githubusercontent.com/evgenyneu/asp3231_project/master/code/090_color_image/images/spaceshit.jpg)
 
@@ -33,6 +33,8 @@ Follow these steps to run the project code:
 1. Find age/distance by fitting Girardi isochrones (Maria): [code/080_science](code/080_science).
 
 1. Make color image of the galaxy: [code/090_color_image](code/090_color_image).
+
+1. Calculate extinction values: [code/100_calculate_extinction](code/100_calculate_extinction).
 
 
 ## The unlicense
